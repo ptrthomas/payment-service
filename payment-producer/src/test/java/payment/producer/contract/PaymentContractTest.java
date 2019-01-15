@@ -1,7 +1,7 @@
 package payment.producer.contract;
 
+import com.intuit.karate.KarateOptions;
 import com.intuit.karate.junit4.Karate;
-import cucumber.api.CucumberOptions;
 import payment.producer.PaymentService;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -13,7 +13,7 @@ import org.springframework.context.ConfigurableApplicationContext;
  * @author pthomas3
  */
 @RunWith(Karate.class)
-@CucumberOptions(features = "classpath:payment/producer/contract/payment-contract.feature")
+@KarateOptions(features = "classpath:payment/producer/contract/payment-contract.feature")
 public class PaymentContractTest {
     
     private static ConfigurableApplicationContext context;
