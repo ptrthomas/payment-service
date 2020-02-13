@@ -1,3 +1,7 @@
+:warning: This demo / sample project has been moved under the Karate repo.
+Check here for the latest: 
+https://github.com/intuit/karate/tree/develop/examples/consumer-driven-contracts
+
 # Karate Consumer Driven Contracts Demo
 
 ## References
